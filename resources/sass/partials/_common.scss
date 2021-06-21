@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.vertical-align-top{
+    vertical-align: top;
+}
+
+.font-size-x1{
+    font-size: $spacing - 1;
+}
+
+.font-size-x4{
+    font-size: $spacing * 4 + 9;
+}
+
+.card{
+    width: 150px;
+    padding: $spacing;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+.display-ib{
+    display: inline-block;
+}
+
+
+.dimension-100x100{
+    width: 100px;
+    height: 100px;
+}
+
+.font-arial-black{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

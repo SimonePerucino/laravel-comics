@@ -1,0 +1,33 @@
+#section-1{
+    padding: $spacing;
+    background-color: $blue;
+    min-height: 20px;
+    width: 100vw;
+}
+
+#section-2{
+    padding: $spacing *2;
+    width: 100vw;
+    background-color: $white;
+}
+
+#section-3{
+    padding: $spacing *2;
+    width: 100vw;
+    min-height: 270px;
+    background-image:url("/images/jumbotron.jpg");
+    background-size: cover;
+}
+
+#section-4{
+    padding: $spacing *2;
+    width: 100vw;
+    background-color: $gray-x3;
+    min-height: 320px;
+}
+
+#section-5{
+    padding: $spacing *2;
+    width: 100vw;
+    background-color: $white;
+}
