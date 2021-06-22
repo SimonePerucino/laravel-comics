@@ -8,11 +8,18 @@
 <section id="section-4">
     <div class="margin-auto width-80x display-flex flex-wrap">
 
-        @foreach ($comicsList as $comic)
-        <div class="card">
-            <img src="{{$comic["thumb"]}}" alt="">
-            <h4 class="text-color-white">{{$comic["title"]}}</h4>
-        </div>
+        @php
+        $routeName = Request::route()->getName();
+        @endphp
+
+        @foreach ($comicsList as $id => $comic)
+        <a href="{{route("paginaDettaglio", $id) }}">
+            <div class="card">
+                <img src="{{$comic["thumb"]}}" alt="">
+                <h4 class="text-color-white">{{$comic["title"]}}</h4>
+            </div>
+        </a>
+
         @endforeach
     </div>
 </section>

@@ -7,19 +7,21 @@
                     <div class="width-40">
                         <img src="images/dc-logo-bg.png" alt="">
                     </div>
-                    
+
                     <nav>
                         <ul class="display-flex">
-                            <li class="padding-10">CHARCACTERS</li>
-                            <li class="padding-10">COMICS</li>
-                            <li class="padding-10">MOVIES</li>
-                            <li class="padding-10">TV</li>
-                            <li class="padding-10">GAMES</li>
-                            <li class="padding-10">COLLECTIBLES</li>
-                            <li class="padding-10">VIDEOS</li>
-                            <li class="padding-10">FANS</li>
-                            <li class="padding-10">NEWS</li>
-                            <li class="padding-10">SHOP</li>
+                            <li class="padding-10">
+                                <a href="">CHARCACTERS</a>
+                            </li>
+                            <li class="padding-10"><a href="">COMICS</a></li>
+                            <li class="padding-10"><a href="">MOVIES</a></li>
+                            <li class="padding-10"><a href="">TV</a></li>
+                            <li class="padding-10"><a href="">GAMES</a></li>
+                            <li class="padding-10"><a href="">COLLECTIBLES</a></li>
+                            <li class="padding-10"><a href="">VIDEOS</a></li>
+                            <li class="padding-10"><a href="">FANS</a></li>
+                            <li class="padding-10"><a href="">NEWS</a></li>
+                            <li class="padding-10"><a href="">SHOP</a></li>
                         </ul>
                     </nav>
                 </div>

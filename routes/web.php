@@ -15,8 +15,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $comicsData = config("comics");
+    return view('Home', ["comicsList" => $comicsData]);
+})->name("HomePage");
 
-    return view('Home', ["comicsList"=>$comicsData] );
-});
-
-
+route::get("/paginaDettaglio/{id}", function ($id) {
+    $comicsData = config("comics");
+    //if(is_numeric($id) || $id < 0 || count($comicsData)){
+    //    abort()
+    //}
+    $comicScelta = $comicsData[$id];
+    return view("paginaDettaglio", ["comic" => $comicScelta]);
+})->name("paginaDettaglio");
